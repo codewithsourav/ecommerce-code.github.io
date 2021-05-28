@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.NavBar{
+    display: flex;
+    background-color: black;
+}
+
+.topNav{
+    color: red;
+    padding: 10px;
+    width: 90vw;
+}
+.navLinks{
+    width: 70vw;
+    float: left;
+}
+
+.navLinks ul li{
+    float: left;
+    align-content: center;
+    padding: 19px;
+}
+.navLinks ul li a{
+    text-decoration: none;
+    margin: 12px;
+    /* margin-left: 4px; */
+    /* text-align: right; */
+    text-align: center;
+}
+.searchBox{
+    padding: 20px;
+    margin-top: 4px;
+    display: flex;
+}
+.navLinks ul li a:hover{
+    background-color: aqua;
+    padding: 6px;
+    margin: 3px;
+    transition: 4ms;
+
+}
+
+img{
+    width: 40vw;
+    height: 50vh;
+    border: solid yellow;
+}
+
+section{
+    width: 100vw;
+    display: flex;
+}
+.rightside{
+    width: 38vw;
+    padding: 16px;
+}
+
+.leftside{
+    width: 50vw;
+    padding: 34px;
+
+}
+
+.sec2{
+    margin: inherit;
+}
+
+footer{
+    text-align: center;
+}
